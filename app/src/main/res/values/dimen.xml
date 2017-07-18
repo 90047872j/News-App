@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="limits_padding">4dp</dimen>
+    <dimen name="tv_section_textSize">16sp</dimen>
+    <dimen name="tv_date_author_textSize">14sp</dimen>
+    <dimen name="tv_title_textSize">20sp</dimen>
+    <dimen name="tv_information_textSize">12sp</dimen>
+</resources>

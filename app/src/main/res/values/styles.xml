@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tv_date_author_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/limits_padding</item>
+        <item name="android:paddingRight">@dimen/limits_padding</item>
+        <item name="android:textSize">@dimen/tv_date_author_textSize</item>
+    </style>
+
+    <style name="tv_date_style" parent="tv_date_author_style">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="tv_author_style" parent="tv_date_author_style">
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/limits_padding</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tv_title_textSize</item>
+    </style>
+
+    <style name="tv_information_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:paddingBottom">@dimen/limits_padding</item>
+        <item name="android:paddingLeft">@dimen/limits_padding</item>
+        <item name="android:paddingRight">@dimen/limits_padding</item>
+        <item name="android:textSize">@dimen/tv_information_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_section_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tv_section_textSize</item>
+        <item name="android:paddingTop">@dimen/limits_padding</item>
+        <item name="android:paddingLeft">@dimen/limits_padding</item>
+        <item name="android:paddingRight">@dimen/limits_padding</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_orderBy_labels">
+        <item> @string/order_recent_label</item>
+        <item>@string/order_old_label</item>
+        <item>@string/order_relevant_label</item>
+    </string-array>
+
+    <string-array name="array_orderBy_values">
+        <item> @string/order_recent_value</item>
+        <item>@string/order_old_value</item>
+        <item>@string/order_relevant_value</item>
+    </string-array>
+</resources>
